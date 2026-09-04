@@ -12,13 +12,10 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
 I used Python, vsCode
 
-{Describe the programming language that you used}
 I used Python
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Python Documentation](https://docs.python.org/3/)
