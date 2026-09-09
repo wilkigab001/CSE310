@@ -1,21 +1,14 @@
 # Overview
-
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
-
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
 I created an expense tracker that allows me to see my expenses and track them. It allows me to view between multiple dates, and uses a one to many relationship.
 
 I wrote this software to experiment with relational databases and to track my expenses.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/836f752e62cf48aa91e8b4d992cb4006)
 
 # Relational Database
 
-{Describe the relational database you are using.}
-
-{Describe the structure (tables) of the relational database that you created.}
+There are two tables I am using. There is 'Categories' and 'Expenses'. Expenses has a foreign key of categories_id, this is how they will join on categories. You can run a statement like ``` LEFT JOIN Expenses ON Expenses.categories_id = Categories.id ``` and this will join the two tables in a one to many relationship. The Foreign key of categories_id allows there to be a relationship between the two objects
 
 # Development Environment
 

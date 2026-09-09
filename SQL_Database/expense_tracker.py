@@ -1,17 +1,4 @@
-"""
-Expense Tracker — a simple CLI app demonstrating core SQL operations.
 
-Requirements covered:
-  BASIC
-    ✓ Creates a SQLite database with tables
-    ✓ Insert, modify, delete, and retrieve data
-    ✓ Software builds SQL commands, submits them, and uses results
-
-  ADDITIONAL (all three)
-    ✓ Two tables with a JOIN (categories ↔ expenses)
-    ✓ Two aggregate functions (SUM, AVG) to summarize spending
-    ✓ Date column with date-range filtering
-"""
 
 import sqlite3
 from datetime import datetime
@@ -20,14 +7,12 @@ from datetime import datetime
 # ── Database setup ──────────────────────────────────────────────────
 
 def connect_db():
-    """Open (or create) the database and return the connection."""
     conn = sqlite3.connect("expenses.db")
     conn.execute("PRAGMA foreign_keys = ON")      # enforce FK constraints
     return conn
 
 
 def create_tables(conn):
-    """Create the categories and expenses tables if they don't exist."""
     cursor = conn.cursor()
 
     cursor.execute("""
@@ -52,7 +37,6 @@ def create_tables(conn):
 
 
 def seed_categories(conn):
-    """Insert default categories if the table is empty."""
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM categories")
     if cursor.fetchone()[0] == 0:
@@ -68,7 +52,6 @@ def seed_categories(conn):
 # ── CRUD helpers ────────────────────────────────────────────────────
 
 def list_categories(conn):
-    """Print every category and return the rows for reuse."""
     cursor = conn.cursor()
     cursor.execute("SELECT id, name FROM categories ORDER BY id")
     rows = cursor.fetchall()
@@ -80,7 +63,6 @@ def list_categories(conn):
 # ── 1. INSERT ───────────────────────────────────────────────────────
 
 def add_expense(conn):
-    """Prompt the user and INSERT a new expense."""
     print("\n── Add Expense ──")
     description = input("Description: ").strip()
     if not description:
@@ -124,7 +106,6 @@ def add_expense(conn):
 # ── 2. RETRIEVE / QUERY  (uses a JOIN) ─────────────────────────────
 
 def view_expenses(conn):
-    """SELECT all expenses, JOINing with categories for the name."""
     print("\n── All Expenses ──")
     cursor = conn.cursor()
 
@@ -151,7 +132,6 @@ def view_expenses(conn):
 # ── 3. MODIFY (UPDATE) ─────────────────────────────────────────────
 
 def update_expense(conn):
-    """Let the user UPDATE an existing expense's description or amount."""
     view_expenses(conn)
     try:
         eid = int(input("Expense ID to update: "))
@@ -186,7 +166,6 @@ def update_expense(conn):
 # ── 4. DELETE ───────────────────────────────────────────────────────
 
 def delete_expense(conn):
-    """DELETE an expense by ID."""
     view_expenses(conn)
     try:
         eid = int(input("Expense ID to delete: "))
@@ -206,7 +185,6 @@ def delete_expense(conn):
 # ── 5. AGGREGATE FUNCTIONS (SUM & AVG) ─────────────────────────────
 
 def spending_summary(conn):
-    """Use SUM and AVG to summarize spending by category."""
     print("\n── Spending Summary ──")
     cursor = conn.cursor()
 
@@ -243,7 +221,6 @@ def spending_summary(conn):
 # ── 6. DATE-RANGE FILTER ───────────────────────────────────────────
 
 def filter_by_date(conn):
-    """Query expenses within a user-supplied date range."""
     print("\n── Filter by Date Range ──")
     start = input("Start date (YYYY-MM-DD): ").strip()
     end   = input("End date   (YYYY-MM-DD): ").strip()
