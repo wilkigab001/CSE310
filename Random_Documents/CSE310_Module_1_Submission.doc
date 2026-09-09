@@ -1,0 +1,31 @@
+﻿
+    <html xmlns:o='urn:schemas-microsoft-com:office:office'
+          xmlns:w='urn:schemas-microsoft-com:office:word'
+          xmlns='http://www.w3.org/TR/REC-html40'>
+    <head><meta charset='utf-8'><title>Module Submission</title></head>
+    <body style="font-family:Arial, sans-serif">
+      <h2>CSE 310 – Module Submission</h2>
+
+      <p><strong>Name:</strong> Gabriel Wilkins</p>
+      <p><strong>Module Number:</strong> 1</p>
+      <p><strong>Date:</strong> September 9, 2026</p>
+
+      <p><strong>GitHub Repo:</strong> <a href="https://github.com/wilkigab001/CSE310/tree/main/SQL_Database">https://github.com/wilkigab001/CSE310/tree/main/SQL_Database</a></p>
+      <p><strong>Video Link:</strong> <a href="https://www.loom.com/share/836f752e62cf48aa91e8b4d992cb4006">https://www.loom.com/share/836f752e62cf48aa91e8b4d992cb4006</a></p>
+
+      <h3>Selected Module: SQL Relational Databases</h3>
+      <h3>Module-Specific Requirements</h3>
+      <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;"><tr><td style="background-color:#e2e3e5; font-weight:bold;">All of these are required</td><td style="background-color:#e2e3e5; font-weight:bold;">Completed?</td></tr><tr><td style="background-color:transparent; font-weight:normal;">You must create a database for your program to use including at least one table to store data into.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Your software must demonstrate the ability to insert, modify, delete, and retrieve (or query) data.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">This module requires more than just creating the database and determining SQL commands. You must write software that builds the SQL commands, submits them, receives the results from the database, and uses the results in some way.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr></table>
+      <br>
+      <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;"><tr><td style="background-color:#e2e3e5; font-weight:bold;">One of these is required</td><td style="background-color:#e2e3e5; font-weight:bold;">Completed?</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Add additional tables to your database and perform a join in your software between two of the tables.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Use at least two of the aggregate functions to summarize numerical data in your database.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Demonstrate the use of a column containing a date or time along with a query that demonstrates filtering within a date or time range.</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr></table>
+
+      <h3>General Submission Checklist</h3>
+      <table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse;"><tr><td style="background-color:#e2e3e5; font-weight:bold;">Question</td><td style="background-color:#e2e3e5; font-weight:bold;">Your Response</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you write at least 100 lines of code in your software and include function level comments on all the functions you wrote?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you use the correct README.md template from the Module Description document in Canvas?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you completely populate the README.md template?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you create the video that includes you in a window, and optionally reference it in the README.md file?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you post a link to your video in the proper MS Teams Channel?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr><tr><td style="background-color:transparent; font-weight:normal;">Did you publish the code with the README.md (in the top-level folder) into a public GitHub repository?</td><td style="background-color:#d4edda; font-weight:bold;">Yes</td></tr></table>
+
+      <h3>Time & Reflection</h3>
+      <p><strong>How many hours did you spend on this module this Sprint? Include all time including planning, researching, implementation, troubleshooting, documentation, video production, and publishing.</strong><br>20</p>
+      <p><strong>Record your time log for each day here</strong><br>Monday 08/30/2026 - 3 Hours<br>Wednesday 9/2/2026 - 4 hours<br>saturday 9/5/2026 - 3 hours<br>Sunday 9/6/2026 - 2 hours<br>monday 9/7/2026 - 3 hours<br>tuedsay 9/8/2026 3 hours <br>wednesday 9/9/2026 3 hours</p>
+      <p><strong>What learning strategies worked well in this module and what strategies (or lack of strategy) did not work well? How can you improve in the next module?</strong><br>The best strategy I found was sitting down and making sure I had time almost everyday to participate and work on this project. Dedicating time really helped me. Next module i can improve by splitting up my time better, doing 3 and 4 hour sessions this week was really hard to do.</p>
+    </body>
+    </html>
+  
