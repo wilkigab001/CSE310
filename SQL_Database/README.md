@@ -4,7 +4,7 @@ I created an expense tracker that allows me to see my expenses and track them. I
 I wrote this software to experiment with relational databases and to track my expenses.
 
 
-[Software Demo Video](https://www.loom.com/share/836f752e62cf48aa91e8b4d992cb4006)
+[Software Demo Video](https://www.loom.com/share/c81ae906e1be416598c4397bf5c990a0)
 
 # Relational Database
 

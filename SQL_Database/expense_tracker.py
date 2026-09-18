@@ -188,7 +188,7 @@ def spending_summary(conn):
     print("\n── Spending Summary ──")
     cursor = conn.cursor()
 
-    # ★ Two aggregate functions: SUM and AVG (plus COUNT for context)
+    # Two aggregate functions: SUM and AVG (plus COUNT for context)
     cursor.execute("""
         SELECT c.name,
                COUNT(e.id)    AS num_expenses,
@@ -234,7 +234,7 @@ def filter_by_date(conn):
 
     cursor = conn.cursor()
 
-    # ★ Date-range filtering with a JOIN
+    # Date-range filtering with a JOIN
     cursor.execute("""
         SELECT e.id, e.description, e.amount, e.date, c.name
         FROM   expenses  e
